@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  margin-bottom: 10vh;
+}
+
+.profile {
+  width: 30vw;
+  height: 100vh;
+  border: 1px black solid;
+  margin-left: 5vw;
+  margin-top: 7vh;
+}
+
+.content {
+  width: 60vw;
+  height: 100vh;
+  border: 1px black solid;
+  margin-left: 4vw;
+  margin-right: 5vw;
+  margin-top: 7vh;
+}
+
+.profile div {
+  margin-left: 5%;
+  text-align: center;
+}
+
+.content > div {
+  margin-left: 3%;
+}
+
+.profileImg {
+  width: 70%;
+}
+
+.section2Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridBox {
+  width: 15vw;
+  height: 35vh;
+  border: 1px black solid;
+  margin-top: 5vh;
+}
